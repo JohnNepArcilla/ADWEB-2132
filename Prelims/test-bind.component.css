@@ -1,0 +1,34 @@
+*{
+    font-family: kollektif;
+}
+h2{
+    font-size: 80px;
+    text-align: center;
+    color: mintcream;
+    
+}
+input{
+    max-width: 20%;
+    margin: auto;
+    
+}
+p{
+    font-size: 32px;
+    text-align: center;
+    color: mintcream;
+}
+.main{
+    position: relative; bottom: 500px;
+    margin-bottom: 10%;
+}
+ul,a{
+    color: mintcream;
+    font-size: 28;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+.info{
+    font-size: 22px;
+}

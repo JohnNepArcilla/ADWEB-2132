@@ -1,0 +1,32 @@
+<div class="mian">
+    <div class="sub">
+        <link rel="stylesheet" href="test-bind.component.css">
+        <h2>Welcome to HAU Grade Book</h2>
+        <div class="info">
+            <ul>
+                <a>Enter your name:</a>
+                <li><input type="text" [(ngModel)]="studName"/></li>
+                <a>Enter the subject:</a>
+                <li><input type="text" [(ngModel)]="subject"/></li>
+                <a>Enter Student Number</a>
+                <li><input type="number" [(ngModel)]="studNum"/></li>
+            </ul>
+        </div>
+        <p>Hello, {{studName}}!</p>
+        <hr>
+        <div class="persem">
+            <ul>
+                <li> <input type="number" [(ngModel)]= "prelim" class="form-control" placeholder ="Prelim" /></li>
+                <li><input type="number" [(ngModel)]= "midterm" class="form-control" placeholder ="Midterm" /></li>
+                <li><input type="number" [(ngModel)]= "final" class="form-control" placeholder ="Final" /></li>
+            </ul>
+        </div>
+        <p>Prelim grade: {{prelim}}</p> 
+        <p>Midterm grade: {{midterm}}</p>
+        <p>Final grade: {{final}}</p>
+        <p>Average: {{(this.prelim + this.midterm + this.final)/3}}</p>\
+
+        ,<p>Good Morning!, {{studName}} your final average for subject {{subject}} is {{(this.prelim + this.midterm + this.final)/3}}</p>
+    </div>
+</div>
+
