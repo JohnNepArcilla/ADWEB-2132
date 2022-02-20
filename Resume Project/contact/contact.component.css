@@ -1,0 +1,35 @@
+img{
+    width: 30px;
+    height: 30px;
+}
+p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+.main{
+    width: auto;
+    height: auto;
+
+}
+.sub{
+    width: 75%;
+    height: 75%;
+    position: relative; top: 30px;
+    margin: auto;
+    box-shadow: 20px 20px 50px grey;
+	position: relative; top: 50px;
+	background-color: rgb(255, 255, 255);
+	height: auto;
+	font-size: 18px;
+	border-radius: 20px;
+}
+a { color: inherit; } 
+
+    
