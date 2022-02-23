@@ -1,0 +1,19 @@
+<div class="main">
+    <div class="sub">
+            <div style="margin-left:2% ;" class="row">, 
+                <div class="column" *ngFor="let std of studentArr; trackBy: trackByData"> 
+                    <div class="card" style="width: 20rem; margin-top: 5%; margin-left: 5%;">
+                <img id="HOM001" class="card-img-top std" [src]="std.prodName" style="width: 285px;"/> 
+                <div class="card-body">
+                    <h5 class="card-title">Product ID: {{std.id}}</h5>
+                </div> 
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Product Name: {{std.name}}</li> 
+                        <li class="list-group-item"> Product Description: {{std.details}}</li>
+                        <li class="list-group-item">Price: {{std.price}}</li> 
+                    </ul> 
+            </div>
+        </div> 
+        
+    </div>
+</div>

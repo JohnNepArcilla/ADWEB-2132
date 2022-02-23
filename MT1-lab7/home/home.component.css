@@ -1,0 +1,12 @@
+.navbar-dark .navbar-nav .nav-link.active-link{
+    color: rgb(255, 174, 0);
+    font-weight: bold;
+}
+sub{
+    width: 50%;
+    margin: auto;
+
+}
+main{
+    width: 500px;;
+}
